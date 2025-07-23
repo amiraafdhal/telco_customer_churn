@@ -4,7 +4,7 @@ import pandas as pd
 import pickle
 
 # Load model
-with open("tuned_logistic_regression.pkl", "rb") as f:
+with open("tuned_logistic_regression.sav", "rb") as f:
     model = pickle.load(f)
 
 st.title("📊 Telco Customer Churn Prediction App")
